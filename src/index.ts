@@ -21,8 +21,8 @@ import { RestClient } from './rest_client';
   const asset = 'assets/native.ethereum-testnet-sepolia';
 
   const amount = '0.00001';
-  const sourceAddress = '0xF9E4662db168105E4cDAc3AE67EAa1068A815b6D';
-  const destinationAddress = '0x1dAA578D51DC6ddfc2E026e6deB78aE2C045f48b';
+  const sourceAddress = '0x3a4E3e66D327Fb8A7a1d17919B40b77B10c8cC0D';
+  const destinationAddress = '0x6b10C92B63f8222Fe0b77C87dF30c3F256c73E76';
 
   const result = await client.initiateAssetTransfer(
     asset,
